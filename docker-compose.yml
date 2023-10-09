@@ -4,7 +4,7 @@ services:
    # build:
     #  context: .
     #  target: development
-    image: petclinic
+    image: pupillight/petclinic
     ports:
       - "8080:8080"
     environment:
